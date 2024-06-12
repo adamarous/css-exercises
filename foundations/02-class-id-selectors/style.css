@@ -1,0 +1,24 @@
+.odd {
+    background-color: rgb(228, 147, 147);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/*
+    I didn't originally use this class, and instead had duplicate code from the #green ID and the
+    third element's ID. After seeing the solution, I also added it, but it wasn't originally part
+    of my thought process.
+    Gotta keep it in mind; if a property is repeated, it might as well get its own selector.
+*/
+.ad-fontsize {
+    font-size: 24px;
+}
+
+#blue {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#green {
+    background-color: rgb(150, 238, 176);
+    font-weight: bold;
+}
